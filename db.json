@@ -1,0 +1,467 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@violetwednesday.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2023-05-20",
+      "status": "active",
+      "avatar": "https://ui-avatars.com/api/?name=Admin&background=8B5CF6&color=fff"
+    },
+    {
+      "id": 2,
+      "username": "huongnguyen",
+      "email": "huong@gmail.com",
+      "password": "user123",
+      "role": "user",
+      "createdAt": "2023-08-10",
+      "status": "active",
+      "avatar": "https://ui-avatars.com/api/?name=Huong&background=8B5CF6&color=fff"
+    },
+    {
+      "id": 3,
+      "username": "haiyen",
+      "email": "yen@example.com",
+      "password": "user123",
+      "role": "user",
+      "createdAt": "2023-09-15",
+      "status": "inactive",
+      "avatar": "https://ui-avatars.com/api/?name=Yen&background=8B5CF6&color=fff"
+    },
+    {
+      "id": 4,
+      "username": "quangtuan",
+      "email": "tuan@example.com",
+      "password": "user123",
+      "role": "user",
+      "createdAt": "2023-10-05",
+      "status": "active",
+      "avatar": "https://ui-avatars.com/api/?name=Tuan&background=8B5CF6&color=fff"
+    },
+    {
+      "id": 5,
+      "username": "marketing",
+      "email": "marketing@violetwednesday.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2023-07-12",
+      "status": "active",
+      "avatar": "https://ui-avatars.com/api/?name=Marketing&background=8B5CF6&color=fff"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hoa sinh nhật",
+      "description": "Các loại hoa dành cho dịp sinh nhật",
+      "createdAt": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Hoa tình yêu",
+      "description": "Các loại hoa dành cho những người yêu nhau",
+      "createdAt": "2023-01-15"
+    },
+    {
+      "id": 3,
+      "name": "Hoa chúc mừng",
+      "description": "Các loại hoa dành cho dịp chúc mừng, khai trương",
+      "createdAt": "2023-02-20"
+    },
+    {
+      "id": 4,
+      "name": "Hoa văn phòng",
+      "description": "Các loại hoa trang trí văn phòng",
+      "createdAt": "2023-03-05"
+    },
+    {
+      "id": 5,
+      "name": "Hoa cưới",
+      "description": "Các loại hoa cưới, bó hoa cô dâu",
+      "createdAt": "2023-04-10"
+    },
+    {
+      "id": 6,
+      "name": "Giỏ trái cây",
+      "description": "Các loại giỏ quà kết hợp trái cây tươi ngon",
+      "createdAt": "2023-04-15"
+    },
+    {
+      "id": 7,
+      "name": "Hoa và trái cây",
+      "description": "Bó hoa kết hợp với trái cây tươi ngon",
+      "createdAt": "2023-05-10"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productCode": "BQ001",
+      "name": "Bó hoa hồng đỏ rực rỡ",
+      "description": "Bó hoa hồng đỏ tươi thắm, là món quà hoàn hảo cho người thương yêu của bạn.",
+      "price": 450000,
+      "discountPrice": 400000,
+      "image": "https://images.unsplash.com/photo-1587556930799-8dca6fad6d41?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zZSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "categoryId": 2,
+      "stock": 50,
+      "createdAt": "2023-05-15",
+      "bestSeller": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "productCode": "BQ002",
+      "name": "Bó hoa tulip trắng tinh khôi",
+      "description": "Bó hoa tulip trắng thanh khiết, mang đến vẻ đẹp tinh tế và thanh lịch.",
+      "price": 650000,
+      "discountPrice": null,
+      "image": "https://images.unsplash.com/photo-1612969308146-066d55f37ccb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHVsaXB8ZW58MHx8MHx8fDA%3D",
+      "categoryId": 2,
+      "stock": 30,
+      "createdAt": "2023-06-05",
+      "bestSeller": false,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "productCode": "LH003",
+      "name": "Lẵng hoa chúc mừng khai trương",
+      "description": "Lẵng hoa chúc mừng khai trương, thích hợp để tặng trong các dịp khai trương, khánh thành.",
+      "price": 1150000,
+      "discountPrice": 950000,
+      "image": "https://images.unsplash.com/photo-1596438459194-f275f413d6ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29uZ3JhdHVsYXRpb24lMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D",
+      "categoryId": 3,
+      "stock": 20,
+      "createdAt": "2023-06-15",
+      "bestSeller": true,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "productCode": "HH001",
+      "name": "Hộp hoa thanh lịch",
+      "description": "Hộp hoa với thiết kế thanh lịch, phù hợp để tặng trong các dịp sinh nhật, kỷ niệm.",
+      "price": 500000,
+      "discountPrice": null,
+      "image": "https://images.unsplash.com/photo-1533616688419-b7a585564566?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZsb3dlciUyMGJveHxlbnwwfHwwfHx8MA%3D%3D",
+      "categoryId": 1,
+      "stock": 15,
+      "createdAt": "2023-07-10",
+      "bestSeller": false,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "productCode": "GH002",
+      "name": "Giỏ hoa trái cây",
+      "description": "Giỏ hoa kết hợp với trái cây tươi ngon, là món quà ý nghĩa cho sức khỏe và sắc đẹp.",
+      "price": 850000,
+      "discountPrice": 750000,
+      "image": "https://images.unsplash.com/photo-1589729132389-8f0e0b55b91e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnJ1aXQlMjBiYXNrZXR8ZW58MHx8MHx8fDA%3D",
+      "categoryId": 3,
+      "stock": 10,
+      "createdAt": "2023-08-08",
+      "bestSeller": true,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "productCode": "BQ004",
+      "name": "Bó hoa hồng vintage",
+      "description": "Bó hoa hồng với phong cách vintage đầy lãng mạn và hoài niệm.",
+      "price": 700000,
+      "discountPrice": null,
+      "image": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmludGFnZSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "categoryId": 2,
+      "stock": 25,
+      "createdAt": "2023-09-20",
+      "bestSeller": false,
+      "featured": true
+    },
+    {
+      "id": 7,
+      "productCode": "GD001",
+      "name": "Giỏ dâu tây nhập khẩu",
+      "description": "Giỏ dâu tây tươi ngon nhập khẩu từ Đà Lạt, là món quà tuyệt vời cho người thân yêu.",
+      "price": 550000,
+      "discountPrice": 480000,
+      "image": "https://images.unsplash.com/photo-1518635017498-87f514b751ba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RyYXdiZXJyeSUyMGJhc2tldHxlbnwwfHwwfHx8MA%3D%3D",
+      "categoryId": 6,
+      "stock": 25,
+      "createdAt": "2023-08-15",
+      "bestSeller": true,
+      "featured": true
+    },
+    {
+      "id": 8,
+      "productCode": "BD001",
+      "name": "Bó hoa hồng kết hợp dâu tây",
+      "description": "Bó hoa hồng đỏ kết hợp với dâu tây tươi ngon, món quà lãng mạn cho người yêu thương.",
+      "price": 850000,
+      "discountPrice": 750000,
+      "image": "https://images.unsplash.com/photo-1583112650997-502f9a14f3d3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3RyYXdiZXJyeSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "categoryId": 7,
+      "stock": 15,
+      "createdAt": "2023-09-10",
+      "bestSeller": true,
+      "featured": true
+    },
+    {
+      "id": 9,
+      "productCode": "HD001",
+      "name": "Hộp quà dâu tây socola",
+      "description": "Hộp quà dâu tây phủ socola cao cấp, món quà ngọt ngào cho những dịp đặc biệt.",
+      "price": 450000,
+      "discountPrice": null,
+      "image": "https://images.unsplash.com/photo-1582293041079-7814c2f12063?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNob2NvbGF0ZSUyMHN0cmF3YmVycnl8ZW58MHx8MHx8fDA%3D",
+      "categoryId": 1,
+      "stock": 30,
+      "createdAt": "2023-10-05",
+      "bestSeller": false,
+      "featured": true
+    },
+    {
+      "id": 10,
+      "productCode": "GD002",
+      "name": "Giỏ quà dâu tây và chocolate",
+      "description": "Giỏ quà kết hợp dâu tây tươi và chocolate cao cấp, món quà hoàn hảo cho các dịp lễ tình nhân.",
+      "price": 750000,
+      "discountPrice": 680000,
+      "image": "https://images.unsplash.com/photo-1613106198404-99b7ca6c023b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3RyYXdiZXJyeSUyMGNob2NvbGF0ZXxlbnwwfHwwfHx8MA%3D%3D",
+      "categoryId": 6,
+      "stock": 20,
+      "createdAt": "2023-10-15",
+      "bestSeller": true,
+      "featured": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-001",
+      "customerName": "Nguyễn Thị Hương",
+      "customerPhone": "0923456789",
+      "customerEmail": "huong@gmail.com",
+      "address": "123 Nguyễn Văn Cừ, Quận 5, TP.HCM",
+      "total": 1300000,
+      "status": "completed",
+      "paymentMethod": "banking",
+      "orderDate": "2023-11-20",
+      "deliveryDate": "2023-11-22",
+      "items": [
+        {
+          "id": 1,
+          "productName": "Bó hoa hồng đỏ rực rỡ",
+          "price": 450000,
+          "quantity": 1,
+          "subtotal": 450000
+        },
+        {
+          "id": 2,
+          "productName": "Bó hoa tulip trắng tinh khôi",
+          "price": 850000,
+          "quantity": 1,
+          "subtotal": 850000
+        }
+      ]
+    },
+    {
+      "id": "ORD-002",
+      "customerName": "Trần Văn Nam",
+      "customerPhone": "0912345678",
+      "customerEmail": "namtran@gmail.com",
+      "address": "45 Lê Lợi, Quận 1, TP.HCM",
+      "total": 650000,
+      "status": "pending",
+      "paymentMethod": "COD",
+      "orderDate": "2023-11-25",
+      "deliveryDate": null,
+      "items": [
+        {
+          "id": 1,
+          "productName": "Hoa chúc mừng khai trương",
+          "price": 650000,
+          "quantity": 1,
+          "subtotal": 650000
+        }
+      ]
+    },
+    {
+      "id": "ORD-003",
+      "customerName": "Lê Thị Hoa",
+      "customerPhone": "0987654321",
+      "customerEmail": "hoale@gmail.com",
+      "address": "22 Trần Hưng Đạo, Quận 1, TP.HCM",
+      "total": 1150000,
+      "status": "processing",
+      "paymentMethod": "momo",
+      "orderDate": "2023-11-24",
+      "deliveryDate": null,
+      "items": [
+        {
+          "id": 1,
+          "productName": "Lẵng hoa cao cấp",
+          "price": 1150000,
+          "quantity": 1,
+          "subtotal": 1150000
+        }
+      ]
+    },
+    {
+      "id": "ORD-004",
+      "customerName": "Phạm Minh Đức",
+      "customerPhone": "0965432187",
+      "customerEmail": "ducpham@gmail.com",
+      "address": "101 Võ Văn Ngân, TP Thủ Đức, TP.HCM",
+      "total": 900000,
+      "status": "cancelled",
+      "paymentMethod": "banking",
+      "orderDate": "2023-11-23",
+      "deliveryDate": null,
+      "items": [
+        {
+          "id": 1,
+          "productName": "Giỏ hoa tươi mix",
+          "price": 450000,
+          "quantity": 2,
+          "subtotal": 900000
+        }
+      ]
+    },
+    {
+      "id": "ORD-005",
+      "customerName": "Võ Thị Trang",
+      "customerPhone": "0934567890",
+      "customerEmail": "trangvo@gmail.com",
+      "address": "15/2 Nguyễn Đình Chiểu, Quận 3, TP.HCM",
+      "total": 1550000,
+      "status": "completed",
+      "paymentMethod": "banking",
+      "orderDate": "2023-11-18",
+      "deliveryDate": "2023-11-19",
+      "items": [
+        {
+          "id": 1,
+          "productName": "Bó hoa hồng vintage",
+          "price": 700000,
+          "quantity": 1,
+          "subtotal": 700000
+        },
+        {
+          "id": 2,
+          "productName": "Hộp quà kèm hoa",
+          "price": 850000,
+          "quantity": 1,
+          "subtotal": 850000
+        }
+      ]
+    },
+    {
+      "id": "ORD-006",
+      "customerName": "Trần Thanh Hà",
+      "customerPhone": "0912345987",
+      "customerEmail": "hatran@gmail.com",
+      "address": "38 Nguyễn Văn Linh, Quận 7, TP.HCM",
+      "total": 480000,
+      "status": "completed",
+      "paymentMethod": "COD",
+      "orderDate": "2023-11-29",
+      "deliveryDate": "2023-11-30",
+      "items": [
+        {
+          "id": 1,
+          "productName": "Giỏ dâu tây nhập khẩu",
+          "price": 480000,
+          "quantity": 1,
+          "subtotal": 480000
+        }
+      ]
+    },
+    {
+      "id": "ORD-007",
+      "customerName": "Lê Minh Tuấn",
+      "customerPhone": "0933456789",
+      "customerEmail": "tuanle@gmail.com",
+      "address": "27 Trần Phú, Quận 5, TP.HCM",
+      "total": 1430000,
+      "status": "processing",
+      "paymentMethod": "banking",
+      "orderDate": "2023-11-30",
+      "deliveryDate": null,
+      "items": [
+        {
+          "id": 1,
+          "productName": "Giỏ dâu tây nhập khẩu",
+          "price": 480000,
+          "quantity": 1,
+          "subtotal": 480000
+        },
+        {
+          "id": 2,
+          "productName": "Bó hoa hồng đỏ rực rỡ",
+          "price": 450000,
+          "quantity": 1,
+          "subtotal": 450000
+        },
+        {
+          "id": 3,
+          "productName": "Hộp quà dâu tây socola",
+          "price": 500000,
+          "quantity": 1,
+          "subtotal": 500000
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    { "date": "2023-11-01", "revenue": 2500000, "orders": 5, "customers": 4 },
+    { "date": "2023-11-02", "revenue": 1800000, "orders": 3, "customers": 3 },
+    { "date": "2023-11-03", "revenue": 3200000, "orders": 7, "customers": 6 },
+    { "date": "2023-11-04", "revenue": 2900000, "orders": 6, "customers": 5 },
+    { "date": "2023-11-05", "revenue": 4500000, "orders": 10, "customers": 8 },
+    { "date": "2023-11-06", "revenue": 3800000, "orders": 8, "customers": 7 },
+    { "date": "2023-11-07", "revenue": 2200000, "orders": 4, "customers": 4 },
+    { "date": "2023-11-08", "revenue": 3500000, "orders": 8, "customers": 7 },
+    { "date": "2023-11-09", "revenue": 4200000, "orders": 9, "customers": 8 },
+    { "date": "2023-11-10", "revenue": 3600000, "orders": 7, "customers": 6 },
+    { "date": "2023-11-11", "revenue": 5500000, "orders": 12, "customers": 10 },
+    { "date": "2023-11-12", "revenue": 4800000, "orders": 10, "customers": 9 },
+    { "date": "2023-11-13", "revenue": 3200000, "orders": 7, "customers": 6 },
+    { "date": "2023-11-14", "revenue": 2800000, "orders": 6, "customers": 5 },
+    { "date": "2023-11-15", "revenue": 3900000, "orders": 8, "customers": 7 },
+    { "date": "2023-11-16", "revenue": 4300000, "orders": 9, "customers": 8 },
+    { "date": "2023-11-17", "revenue": 5100000, "orders": 11, "customers": 9 },
+    { "date": "2023-11-18", "revenue": 4700000, "orders": 10, "customers": 8 },
+    { "date": "2023-11-19", "revenue": 3800000, "orders": 8, "customers": 7 },
+    { "date": "2023-11-20", "revenue": 4500000, "orders": 9, "customers": 8 },
+    { "date": "2023-11-21", "revenue": 5200000, "orders": 12, "customers": 10 },
+    { "date": "2023-11-22", "revenue": 4600000, "orders": 10, "customers": 9 },
+    { "date": "2023-11-23", "revenue": 3900000, "orders": 8, "customers": 7 },
+    { "date": "2023-11-24", "revenue": 4800000, "orders": 10, "customers": 9 },
+    { "date": "2023-11-25", "revenue": 5500000, "orders": 12, "customers": 11 },
+    { "date": "2023-11-26", "revenue": 4900000, "orders": 11, "customers": 10 },
+    { "date": "2023-11-27", "revenue": 4200000, "orders": 9, "customers": 8 },
+    { "date": "2023-11-28", "revenue": 3800000, "orders": 8, "customers": 7 },
+    { "date": "2023-11-29", "revenue": 4600000, "orders": 10, "customers": 9 },
+    { "date": "2023-11-30", "revenue": 5300000, "orders": 12, "customers": 11 }
+  ],
+  "category_stats": [
+    { "name": "Hoa sinh nhật", "sales": 45, "revenue": 21500000 },
+    { "name": "Hoa tình yêu", "sales": 38, "revenue": 18900000 },
+    { "name": "Hoa chúc mừng", "sales": 27, "revenue": 13400000 },
+    { "name": "Hoa văn phòng", "sales": 19, "revenue": 9700000 },
+    { "name": "Giỏ trái cây", "sales": 35, "revenue": 18500000 },
+    { "name": "Hoa và trái cây", "sales": 29, "revenue": 15200000 }
+  ],
+  "product_stats": [
+    { "name": "Bó hoa hồng đỏ rực rỡ", "sales": 22, "revenue": 9900000, "code": "BQ001" },
+    { "name": "Bó hoa tulip trắng tinh khôi", "sales": 18, "revenue": 11700000, "code": "BQ002" },
+    { "name": "Lẵng hoa chúc mừng khai trương", "sales": 15, "revenue": 9750000, "code": "LH003" },
+    { "name": "Hộp hoa thanh lịch", "sales": 12, "revenue": 6000000, "code": "HH001" },
+    { "name": "Giỏ hoa trái cây", "sales": 10, "revenue": 5500000, "code": "GH002" },
+    { "name": "Giỏ dâu tây nhập khẩu", "sales": 18, "revenue": 8640000, "code": "GD001" },
+    { "name": "Bó hoa hồng kết hợp dâu tây", "sales": 14, "revenue": 10500000, "code": "BD001" },
+    { "name": "Giỏ quà dâu tây và chocolate", "sales": 12, "revenue": 8160000, "code": "GD002" }
+  ]
+} 
